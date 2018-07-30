@@ -1,0 +1,52 @@
+*{
+    font-family: CENTURY GOTHIC;
+    margin: 0;
+    padding: 0;
+    cursor: url('img/aim.png'), pointer;
+}
+
+body{
+    background-color: aliceblue;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: url('img/cloud.jpg');
+    background-size: cover;
+}
+
+.birds {
+    position: relative;
+}
+
+.bird {
+    position: absolute;
+}
+
+.counter {
+    position: absolute;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.ground {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: url('img/ground.jpg');
+    background-size: cover;
+}
+
+.gun {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    object-fit: cover;
+    width: 100px;
+    height: 180px;
+}
